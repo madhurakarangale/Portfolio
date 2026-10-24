@@ -1,0 +1,22 @@
+# GitHub Pages — What to include / exclude
+
+# Exclude the local assets folder (photo is embedded in HTML as Base64)
+assets/
+
+# Exclude system / OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exclude editor files
+.vscode/
+*.code-workspace
+.idea/
+
+# Exclude Node modules if any
+node_modules/
+
+# Exclude any scratch / temp files
+*.log
+*.tmp
+*.bak
